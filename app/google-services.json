@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "622497167443",
+    "firebase_url": "https://mpsdassignment-team-10-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mpsdassignment-team-10",
+    "storage_bucket": "mpsdassignment-team-10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622497167443:android:032995fc5dc49ccc77aea6",
+        "android_client_info": {
+          "package_name": "com.Team10.mpsdassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622497167443-lptrlk337jqgltjcerd8vtr0inrvfokc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp_jP1zUMzOxjQY-Yiem-AaB7Fu00fnfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622497167443-lptrlk337jqgltjcerd8vtr0inrvfokc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

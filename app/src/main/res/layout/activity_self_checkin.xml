@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="Self Check-In"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sHospital"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:entries="@array/hospital_spinner"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_horizontal"
+        android:text="Pick Your Check-In Location And Click On The Check-In Button To Inform The Hospital Of Your Visit"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCheckin"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/round_border"
+        android:text="Check-In"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:radius="20dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBackToMenu"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/round_border"
+        android:text="Back To Menu"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:radius="20dp"
+        />
+
+</LinearLayout>
